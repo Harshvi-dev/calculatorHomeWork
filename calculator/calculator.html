@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <script src="cal.js"></script>
+</head>
+<body>
+    <h3>Calculator</h3>
+    <input type="text" id="textBox1" onchange="getVal()" />
+    <div id="symbol"> </div>
+    <input type="text" id="textBox2" onchange="getVal()"/>
+    <br>
+    <button onclick="add()">+</button>
+    <button onclick="sub()">-</button>
+    <button onclick="mul()">*</button>
+    <button onclick="div()">/</button>
+    <button onclick="ans()">=</button>
+    <br>
+    <div id="ans">
+        
+    </div>
+</body>
+</html>
